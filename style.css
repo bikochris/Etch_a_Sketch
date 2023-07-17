@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  #reset-button {
+    margin-bottom: 20px;
+  }
+  
+  #container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+  }
+  
+  .grid-square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+  }
+  
+  .grid-square:hover {
+    background-color: black;
+  }
+  
